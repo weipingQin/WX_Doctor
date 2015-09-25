@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <com.common.image.SmartImageView
+        android:id="@+id/adddoctor_item_header_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/main_list_header" >
+    </com.common.image.SmartImageView>
+
+    <TextView
+        android:id="@+id/adddoctor_item_header_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/adddoctor_item_header_imageview"
+        android:text="文文     王学文"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/adddoctor_item_babyinfo_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adddoctor_item_header_textview"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/adddoctor_item_header_imageview"
+        android:text="XXX的宝宝(13310101010)"
+        android:textColor="@color/text_grey"
+        android:textSize="14sp" />
+    
+    <TextView
+        android:id="@+id/adddoctor_item_contact_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/main_weiguanlian"/>
+    
+    <TextView
+        android:id="@+id/adddoctor_item_contacted_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/main_yiguanlian"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/adddoctor_item_age_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adddoctor_item_babyinfo_textview"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/adddoctor_item_header_imageview"
+        android:text="王子    5个月22天"
+        android:textColor="@color/text_grey"
+        android:textSize="12sp" />
+
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_below="@id/adddoctor_item_age_textview"
+        android:layout_marginTop="5dp"
+        android:background="@color/text_grey" /> -->
+
+</RelativeLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/miaodou_bg"
+    android:orientation="vertical"
+    android:padding="12dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/relative_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/validateinfo_phone_textview"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_centerVertical="true"
+                android:text="@string/validateinfo_phone_textview"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/validateinfo_phone_editview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/validateinfo_phone_textview"
+                android:hint="@string/validateinfo_phone_textview_hit"
+                android:inputType="phone"
+                android:paddingLeft="2dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/validateinfo_modify_textview"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/validateinfo_phone_editview"
+                android:text="@string/validateinfo_modify_phone"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@android:color/white"
+                android:background="@color/blue"
+                android:textSize="12sp" />
+        </RelativeLayout>
+        
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/validateinfo_username_textview"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_centerVertical="true"
+                android:text="@string/validateinfo_username_textview"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/validateinfo_username_editview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/validateinfo_username_textview"
+                android:hint="@string/validateinfo_username_textview_hit"
+                android:paddingLeft="2dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp" >
+
+            <TextView
+                android:id="@+id/validateinfo_virfix_textview"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_centerVertical="true"
+                android:text="@string/validateinfo_verify_code"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/validateinfo_verify_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/validateinfo_verify_code_hit"
+                android:layout_toRightOf="@id/validateinfo_virfix_textview"
+                 android:textSize="14sp" 
+                android:singleLine="true"
+                android:paddingLeft="2dp" />
+
+            <TextView
+                android:id="@+id/validateinfo_require_verfix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/validateinfo_verify_edit"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/require_verify_code"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:background="@color/relative_bg"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/validateinfo_password_textview"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/validateinfo_password_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/validateinfo_password_textview"
+            android:background="@drawable/forget_password_edit_selector"
+            android:hint="@string/validateinfo_password_edit_hit"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/register_line"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/validateinfo_newpassword_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/validateinfo_password_textview"
+            android:hint="@string/validateinfo_newpassword_edit_hit"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/register_line"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/validateinfo_virfix"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/validateinfo_password_textview"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/cofirm_password"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/validateinfo_confirm_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/validateinfo_newpassword_edit"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/validateinfo_virfix"
+            android:hint="@string/validateinfo_confirm_edit_hit"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/register_line"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+   <TextView
+        android:id="@+id/submit_btn_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/blue"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" /> 
+
+    <TextView
+        android:id="@+id/register_btn_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/blue"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/register_btn_textview"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

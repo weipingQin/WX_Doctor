@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg"					>#ECF0F1</color>
+    <color name="main_menu_bg"			>#273447</color>
+    <color name="title"					>#333333</color>
+    <color name="menu"					>#f1f1f1</color>
+    <color name="desc"					>#666666</color>
+    <color name="hint"					>#999999</color>
+    <color name="blue"					>#0e70ad</color>
+    <color name="register_line"			>#b1b1b1</color>
+    <color name="line"					>#dfe4e6</color>
+    <color name="list_line"				>#e3e3e3</color>
+    <color name="key_item_bg"			>#FAFBFB</color>
+    <color name="miaodou_bg"			>#ecf0f1</color>
+    <color name="register_textinfo"		>#99999999</color>
+    <color name="register_blue"			>#47abd3</color>
+    <color name="open_door_modify_bg"	>#ecf0f1</color>
+    <color name="text_grey"				>#999999</color>
+    <color name="login_btn_down"		>#d4d4d4</color>
+    <color name="submit"				>#d4d4d4</color>
+    <color name="register_bg"			>#fbfbfb</color>
+    <color name="login_text_color"		>#0d6a8f</color>
+    <color name="orign"					>#ff5200</color>
+    <color name="find_home_detail_text"	>#636363</color>
+    <color name="aichong_bg"			>#efeff4</color>
+    <color name="blue_btn"				>#39b9f0</color>
+    <color name="my_submit_title"		>#646464</color>
+    <color name="animal_age_text"		>#DCDCDC</color>
+    <color name="main_bg"				>#efeff4</color>
+    <color name="relative_bg"			>#fbfbfb</color>
+    <color name="miaodou_btn_text_bg"	>#ff7147</color>
+    <color name="check_code_btn_down"	>#4B74ff</color>
+    <color name="check_code_btn"		>#6487ff</color>
+    <color name="main_tab_bg"			>#f0f0f0</color>
+    <color name="searchview_bg"			>#C4C4C4</color>
+    <color name="sign_btn"				>#B7B2CB</color>
+    
+    <color name="actionbar_bg"			>#B882C3</color>
+</resources>

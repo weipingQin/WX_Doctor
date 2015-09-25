@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/doctorinfo_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.common.image.SmartImageView
+            android:id="@+id/doctorinfo_header_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/doctorinfo_head_img" >
+        </com.common.image.SmartImageView>
+
+        <TextView
+            android:id="@+id/doctorinfo_doctorname_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/doctorinfo_header_imageview"
+            android:text="姓名"
+            android:textColor="@color/text_grey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/doctorinfo_doctorsex_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doctorinfo_doctorname_textview"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/doctorinfo_header_imageview"
+            android:text="性别"
+            android:textColor="@color/text_grey"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/doctorinfo_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职称"
+            android:textColor="@color/text_grey"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/doctorinfo_title_editText"
+            android:layout_toRightOf="@id/doctorinfo_title_textview"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/doctorinfo_hospital_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="医院"
+            android:textColor="@color/text_grey"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/doctorinfo_hospitalname_eidttext"
+            android:layout_toRightOf="@id/doctorinfo_hospital_textview"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    
+     
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/doctorinfo_phonenumber_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系电话"
+            android:textColor="@color/text_grey"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/doctorinfo_phonenumber_edittext"
+            android:layout_toRightOf="@id/doctorinfo_phonenumber_textview"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/doctorinfo_basicinfo_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简介"
+            android:textColor="@color/text_grey"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/doctorinfo_basicinfo_edittext"
+            android:layout_toRightOf="@id/doctorinfo_basicinfo_textview"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+      
+     
+
+</LinearLayout>

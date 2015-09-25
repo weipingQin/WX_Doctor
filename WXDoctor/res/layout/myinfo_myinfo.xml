@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/myinfo_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.common.image.SmartImageView
+            android:id="@+id/myinfo_header_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/myinfo_head_img" />
+
+        <TextView
+            android:id="@+id/myinfo_doctorname_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/myinfo_header_imageview"
+            android:text="姓名"
+            android:textColor="@color/text_grey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/myinfo_doctorsex_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myinfo_doctorname_textview"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/myinfo_header_imageview"
+            android:text="性别"
+            android:textColor="@color/text_grey"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/myinfo_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职称"
+            android:textColor="@color/text_grey"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/myinfo_myinfo_zhicheng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/myinfo_title_textview"
+            android:editable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/myinfo_hospital_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="医院"
+            android:textColor="@color/text_grey"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/myinfo_myinfo_hospotial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/myinfo_hospital_textview"
+            android:layout_toRightOf="@+id/myinfo_hospital_textview"
+            android:editable="false"
+            android:ems="10" >
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/myinfo_phonenumber_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系电话"
+            android:textColor="@color/text_grey"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/myinfo_phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/myinfo_phonenumber_textview"
+            android:editable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/myinfo_basicinfo_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简介"
+            android:textColor="@color/text_grey"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/myinfo_jianjie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/myinfo_basicinfo_textview"
+            android:editable="false" />
+    </RelativeLayout>
+
+</LinearLayout>

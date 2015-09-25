@@ -1,0 +1,104 @@
+<resources>
+
+    <string name="app_name"							>微象医生版</string>
+    <string name="search"							>搜索手机号、姓名、昵称</string>
+    <string name="main_tab_myroom"					>我的诊所</string>
+    <string name="main_tab_expert"					>专家咨询</string>
+    <string name="main_tab_myinfo"					>我的信息</string>
+    <string name="main_list_nodata"					>暂无相关数据</string>
+    <string name="click_again_to_exit"				>再按一次退出应用</string>
+    <string name="common_abnormal"				    >网络连接超时</string>
+    
+    <string name="reset_pswd"						>重置密码</string>
+    <string name="register"							>用户注册</string>
+    <!-- login.xml -->
+    <string name="login_logo_text"					>欢迎使用微象</string>
+    <string name="login_phone_edit"					>手机号:</string>
+    <string name="login_name_edit"					>用户名:</string>
+    <string name="login_password_edit"				>密码(由6位数字组成)</string>
+    <string name="login_confrim_password_edit"		>确认密码</string>
+    <string name="login_register_textview"			>注册</string>
+    <string name="register_success"					>注册成功!</string>
+    <string name="register_fail_retry"				>注册失败,请重试!</string>
+    <string name="login_success"					>登录成功!</string>
+    <string name="login_fail_retry"					>登录失败,请重试！</string>
+    <string name="input_message_name"				>用户名不能为空</string>
+    <string name="input_message_phone"				>手机号不能为空</string>
+    <string name="input_message_checkphone"			>您输入的手机号格式不正确</string>
+    <string name="input_message_keyname"			>钥匙名不能为空</string>
+    <string name="input_message_password"			>密码不能为空</string>
+    <string name="input_message_username"			>用户名不能为空</string>
+    <string name="input_message_confirm_password"	>确认密码不能为空</string>
+    <string name="input_message_repassword"			>两次密码不一致</string>
+    <string name="input_message_checkcode"			>验证码不能为空</string>
+    <string name="register_waiting"					>正在注册,请稍等!</string> 
+    <string name="login_waiting"					>正在登录,请稍等!</string> 
+   
+    <string name="login_login_textview"				>登录</string>
+    <string name="login_forgetpassword_textview" 	>忘记密码</string>
+    <string name="resetpassword_btn_submit"			>提交</string>
+    
+    <!-- register.xml -->
+    <string name="register_register_textview"		>手机号码</string>
+    
+    <!-- validateinfo.xml -->
+    <string name="validateinfo_phone_textview"		>手机号码</string>
+    <string name="validateinfo_username_textview"	>用户名</string>
+    <string name="validateinfo_phone_editview"		></string>
+    <string name="validateinfo_phone_textview_hit"	>请输入手机号码</string>
+    <string name="validateinfo_username_textview_hit">请输入用户名</string>
+    <string name="validateinfo_verify_code"			>验证码</string>
+    <string name="validateinfo_verify_code_hit"		>请输入您的验证码</string>
+    <string name="validateinfo_modify_phone"		>修改号码</string>
+    <string name="password"							>密码</string>
+    <string name="validateinfo_password_edit_hit"	>密码(6-12位数字和字母组成)</string>
+    <string name="require_verify_code"				>获取验证码</string>
+    <string name="validateinfo_newpassword_edit_hit">新密码(6-12位数字和字母组成)</string>
+    <string name="validateinfo_confirm_edit_hit"	>确认密码(6-12位数字和字母组成)</string>
+    <string name="cofirm_password"					>确认密码</string>
+    <string name="submit"							>提交</string>
+    <string name="register_btn_textview"			>注册</string>
+    <string name="new_password"						>新密码</string>
+    <string name="reset_pwd_success"				>重置密码成功!</string>
+    <string name="reset_pwd_fail_retry"				>重置密码失败!</string>
+    
+    
+    <!-- babyListRequire -->
+    <string name="require_data_fail"				>获取宝宝信息失败!</string>
+    <string name="require_not_link_fail"			>获取未关联宝宝信息失败!</string>
+    <string name="require_data_success"				>获取宝宝信息成功!</string>
+    <string name="require_data"						>正在获取数据,请稍后。。。</string>
+    
+    <!-- babyinfo.xml -->
+    <string name="babyinfo_username_textview"		>昵称</string>
+    <string name="babyinfo_sex_textview"			>性别</string>
+    <string name="babyinfo_place_textview"			>地区</string>
+    <string name="babyinfo_birthday_textview"		>出生日期</string>
+    <string name="babyinfo_jiezhong_textview"		>接种点</string>
+    <string name="babyinfo_parentname_textview"		>家长姓名</string>
+    <string name="babyinfo_phonenumber_textview"	>手机号码</string>
+    
+   <!-- 意见反馈界面 -->
+    <string name="feedback_win_title"				>反馈意见</string>
+    <string name="feedback_tips1"					>亲爱的用户，感谢您对微象的支持与厚爱。如有任何意见和建议，请您及时反馈给我们，我会以最快的速度处理及回复给您。</string>
+    <string name="feedback_tips2"					>请您留下意见与建议（上限500字）</string>
+    <string name="feedback_tips3"					>已输入0字</string>
+    <string name="feedback_tips4"					>请留下您的联系方式：</string>
+    
+    <!-- url -->
+    
+    <string name="host_url_doctor"				    >http://121.43.230.238:8082/DoctorApi</string>
+    <string name="host_url_baby"					>http://121.43.230.238:8082/BabyAPI</string>
+    <string name="host_url_imApi"					>http://121.43.230.238:8082/IMApi</string>
+    <string name="host_url_sys"						>http://121.43.230.238:8082/SysUPDateApi/</string>
+    <string name="doctor_user"						>%s/DUserApi.ASPX</string>
+    <string name="modify_password"					>%s/DUserApi.ASPX</string>
+    <string name="require_baby_list"				>%s/BabyForDoctorApi.aspx</string>
+    <string name="require_baby_not_list"			>%s/BabyForDoctorApi.aspx</string>
+    <string name="require_baby_im"					>%s/GetTokenApi.aspx</string>
+    <string name="require_prodoctor_list"		    >%s/ProDoctorApi.aspx</string>
+    <string name="require_babyinfo"					>%s/BabyAPI.ASPX</string>
+    <string name="require_update"					>%s/SysUPApi.aspx</string>
+    <string name="require_join_doctor"				>%s/JoinDoctorApi.ASPX</string>	
+    <string name="require_verfix_code"				>%s/SMSCheckApi.aspx</string>
+</resources>

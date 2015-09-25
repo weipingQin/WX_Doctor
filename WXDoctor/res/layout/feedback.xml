@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_fb_lanmu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/feedback_tips1"
+            android:textColor="#C1C1C1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_fb_lanmu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_fb_lanmu1"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:text="@string/feedback_tips2"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextContent"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv_fb_lanmu2"
+            android:ems="10"
+            android:padding="2dp"
+            android:background="@color/miaodou_bg"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_fb_yishuru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextContent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:text="@string/feedback_tips3"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tb_fb_cntct_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_fb_yishuru"
+            android:layout_marginTop="10dp"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:text="@string/feedback_tips4"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextContactInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tb_fb_cntct_tips"
+            android:padding="2dp"
+            android:background="@color/miaodou_bg"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/tv_btn_submit1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextContactInfo"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@color/actionbar_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="提交建议"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+        
+    </RelativeLayout>
+
+</LinearLayout>
